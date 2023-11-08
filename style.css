@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-family: sans-serif;
+}
+body {
+  background-color: #192655;
+}
+.student-container {
+  width: 500px;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+hr{
+
+  border: none;
+  height: 2px;
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+}
+h2{
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  outline: none;
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+.btn input {
+  width: 125px;
+  height: 40px;
+  font-size: 14px;
+  margin: 20px 50px;
+  border: 1px solid green;
+  background-color: green;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+.btn input:hover {
+  border-color: white;
+  
+}
+h2 {
+  margin-bottom: 30px;
+}
+.student-data {
+  margin-top: 50px;
+  width: 80%;
+  height: 500px;
+  color: white;
+  margin-left: 10%;
+}
+.student-data table,th,td{
+   text-align: center;
+   padding: 12px 16px;
+   border-collapse: collapse;
+   border: 1px solid white;
+}
+#editbtn{
+  background-color: orange;
+  border-color: 1px solid orange !important;
+}
+.student-data button{
+  padding: 10px 20px;
+  width: 110px;
+  margin-right: 10px;
+  border: 1px solid crimson;
+  background-color: crimson;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: 0.5s ease all;
+  cursor: pointer;
+
+}
+.student-data button:hover{
+  border-color: white;
+}
+
+
